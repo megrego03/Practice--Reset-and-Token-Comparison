@@ -82,14 +82,14 @@ a {
   color: var(--color-action);
 }
 
-button, 
-.button { 
-  display: inline-block; 
-  padding: .75rem 1rem; 
-  background: #8c1d40; 
-  color: #ffffff; 
-  border-radius: .25rem; 
-  font-weight: 700; 
+button,
+.button {
+  display: inline-block;
+  padding: var(--space-control) var(--space-card);
+  background: var(--color-action);
+  color: var(--color-on-action);
+  border-radius: var(--radius-action);
+  font-weight: var(--font-strong);
 }
 
 form { 
