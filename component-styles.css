@@ -103,4 +103,13 @@ input {
   border: 1px solid var(--color-control-border);
 }
 
-.theme-alt { /* TODO: redefine semantic tokens here, then consume them above. */ }
+.theme-alt { 
+  /* TODO: redefine semantic tokens here, then consume them above. */ 
+  --color-surface: #eef8f7;
+  --color-text: #16324f;
+  --color-border: #0a9396;
+  --color-action: #005f73;
+  --radius-card: 1rem;
+  --radius-action: .5rem;
+}
+
