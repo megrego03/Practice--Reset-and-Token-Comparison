@@ -78,8 +78,8 @@ img {
   height: auto; 
 }
 
-a { 
-  color: #8c1d40; 
+a {
+  color: var(--color-action);
 }
 
 button, 
