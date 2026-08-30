@@ -56,12 +56,12 @@ header {
   font-weight: var(--font-strong);
 }
 
-main { 
-  display: grid; 
-  gap: 1rem; 
-  max-width: 70rem; 
-  margin: 2rem auto; 
-  padding: 0 1rem; 
+main {
+  display: grid;
+  gap: var(--space-card);
+  max-width: 70rem;
+  margin: var(--space-page) auto;
+  padding: 0 var(--space-card);
 }
 
 .card { 
