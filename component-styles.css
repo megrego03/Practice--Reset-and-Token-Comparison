@@ -51,9 +51,9 @@ header {
   color: var(--color-on-action);
 }
 
-.eyebrow { 
-  color: #ffc627; 
-  font-weight: 700; 
+.eyebrow {
+  color: var(--color-accent);
+  font-weight: var(--font-strong);
 }
 
 main { 
