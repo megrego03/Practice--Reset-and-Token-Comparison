@@ -38,7 +38,13 @@
   --font-strong:var(--font-weight-bold);
   
 }
-body { color: #404040; background: #f1f1f1; font-family: Arial, sans-serif; line-height: 1.5; }
+body {
+  color: var(--color-text);
+  background: var(--color-page);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
 header { padding: 2rem; background: #8c1d40; color: #ffffff; }
 .eyebrow { color: #ffc627; font-weight: 700; }
 main { display: grid; gap: 1rem; max-width: 70rem; margin: 2rem auto; padding: 0 1rem; }
